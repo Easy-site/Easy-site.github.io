@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  /* your styling */
+
+.header
+{
+	background: url('../img/bg.png') no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+.container
+{
+	clear: both;
+	display: table;
+	width: 1170px;
+	padding-top: 20px;
+	margin: 0px auto;
+	font-size: 14px;
+}
+
+li
+{
+	float: right;
+	list-style-type:none; 
+	margin-left: 20px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo
+{
+	float: left;
+}
+
+ul li:first-child
+{
+	border: 1px solid red;
+	border-radius: 50px 50px;
+	color:red;
+	width:15%; 
+	text-align: center;
+	padding: 2px;
+}	
+
+.content
+{
+	padding-top: 50px;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 50px;
+}
+
+h2
+{
+	font-family: 'Roboto', bold;
+	padding-bottom: 15px;
+}
+
+
+.address
+{
+	width: 200px;
+	background:white;
+	border: 1px;
+	border-radius:50px 0px 0px 50px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 15px 5px 10px 5px;
+	display: inline-block;
+}
+
+.demo
+{
+	width: 150px;
+	background:#f82c65;
+	color: white;
+	border: 1px;
+	border-radius:0px 50px 50px 0px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 15px 5px 10px 5px;
+	display: inline-block;
+	margin-left: -10px;
+}
+
+.dialogue
+{
+	width: 500px;
+	margin: auto;
+	clear: both;
+	display: table;
+	padding-bottom: 50px;
+}
+
+.question
+{
+	margin-bottom: 30px;
+}
+
+.hi
+{
+	border-radius: 10px 10px;
+	background: white;
+	border: 1px;
+	width: 250px;
+	line-height: 30px;
+	text-align: left;
+	z-index: 2;
+	display: inline-block;
+	padding: 15px 25px 5px 50px;
+	margin-left: -40px;
+}
+
+.hello
+{	
+	margin-left: 0px;
+	margin-right: -40px;
+	float: right;
+}
+
+.hi-img-position
+{
+	position: relative;
+	top: +25px;
+}
+
+.hello-img-position
+{
+	float: right;
+	position: relative;
+	top: +5px;
+	left: -5px;
+}
+
+img
+{
+	z-index: 1;
+}
+
+.analize
+{
+	width: 60%;
+	padding-top: 70px;
+	clear: both;
+	display: table;
+	margin: auto;
+	border-bottom: 1px solid #e0dee0;
+	padding-bottom: 70px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+
+}
+
+.grafik
+{
+	float: left;
+	width: 50%;
+}
+
+.text-right
+{
+	float: right;
+	width: 50%;
+}
+
+.text-left
+{
+	float: left;
+	width: 50%;
+}
+
+.text-right >p
+{
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+a
+{
+	color:red;
+
+}
+
+.statistics
+{
+	clear: both;
+	display: table;
+}
+
+.class-25
+{
+	border-right: 1px solid #e0dee0;
+	width: 180px;
+	float: left;
+	margin-top: 30px;
+}
+
+.class-96
+{
+	width: 150px;
+	float:right;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.mellisa
+{
+	float: right;
+	width: 50%;
+}
+.read
+{
+	background: #f82c65;
+	border-radius: 50px 50px;
+	color: white;
+	float: left;
+	width: 120px;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.video
+{
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+
+.video >img
+{
+	width: 90%;
+}
+
+.advance
+{
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+
+.block
+{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 60px;
+	text-align: left;
+}
+
+.position
+{
+ 	position: relative;
+ 	left:  -70px;
+ 	bottom: -70px;
+}
+.analize-1
+{
+	background: #ebe8e8;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	
+}
+.text-left-1
+{
+	float: left;
+	width: 50%;
+	border-bottom: 2px solid #e0dee0; 
+	margin-bottom: 20px; 
+	padding-bottom: 20px;
+
+}
+
+.text-left-1>p
+{
+	color: #706d6d;
+}
+
+.text-left-quote
+{
+	float: left;
+}
+
+.people
+{
+	float: left;
+	margin-top: 20px;
+}
+
+.people>p
+
+{
+	position: relative;
+	top:-90px;
+	right: -120px;
+}
+
+.app
+{
+	background: #f82c65;
+	border-radius: 50px 50px;
+	color: white;
+	width: 120px;
+	padding: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.footer
+{
+	width: 100%;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-left:70px;
+	background: #ebe8e8;
+}
+
+.logo-footer
+
+{
+	width: 30%;
+	line-height: 20px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.social
+
+{
+	width: 30%;
+	display: inline-block;
+	margin-top: 20px;
+	line-height: 30px;
+	text-align: right;
+	margin-left: -50px;
+}
+
+
+.quote
+{
+	width: 30%;
+	margin-top: 60px;
+	display: inline-block;
+	margin-left: -50px;
+	text-align: center;
+
+}
