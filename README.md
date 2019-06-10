@@ -1,7 +1,7 @@
 
 
 # Easy-site.github.io
-Портфолио
+Портфолио Тюрикова Татьяна
 
 
 [Restuarant](https://easy-site.github.io/restuarant/ "Верстка landing page ресторана")
