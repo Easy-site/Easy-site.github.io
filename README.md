@@ -4,4 +4,4 @@
 Портфолио
 
 
-[restuarant](https://easy-site.github.io/restuarant/ "Верстка landing pageдля ресторана")
+[Restuarant](https://easy-site.github.io/restuarant/ "Верстка landing pageдля ресторана")
