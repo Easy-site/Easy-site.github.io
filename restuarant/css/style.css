@@ -1,0 +1,351 @@
+
+body
+{
+	font-family: 'Sintony', sans-serif;
+	color: #c8cacc;
+}
+ul, li
+{
+	padding: 0;	
+	margin: 0;
+	display: block;
+}
+h1, h2, h3,h4, h5, h6
+{
+	font-family:'Playfair Display';
+	font-weight: 700;
+}
+p
+{
+	line-height: 1.6em;
+}
+.main-header
+{
+	padding: 24px 0;
+}
+
+.menu
+{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;
+}
+
+.menu_item
+{
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase; 
+
+}
+
+ .menu_item a
+{
+	color: #2c465a !important;
+
+}
+
+.cta
+{
+	background: #fea100;
+	font-size: 14px;
+	border-radius: 5px;
+	color: white;
+	padding:13px;
+	font-weight: 700;
+	cursor: pointer;
+	display: block;
+	width: 200px;
+	border: 0;
+	text-transform:uppercase;
+	display: flex;
+	justify-content: space-between-center;
+	margin-top: -5px;
+	text-align: center;
+}
+
+.cta:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+.book__icon
+{
+	background: url('../img/order.png');
+	width: 21px;
+	height: 17px;
+	display: block;
+	margin-right: 10px;
+}
+
+.offer
+{
+	background: url(../img/first-bg.jpg) no-repeat center top;
+	
+}
+.title
+{
+	padding: 210px 0;
+}
+.title_heading
+{
+	font-size: 56px;
+	color: white;
+
+}
+
+.intro
+{
+	font-weight: 700;
+	font-family: 'Playfair Display';
+	font-size: 40px;
+	color: #fff;
+	margin-top: -10px;
+}
+.intro_color
+{
+	color: #fea100;
+
+}
+.call
+{
+ background: #dde3e7;
+padding: 30px 0;
+
+}
+.phone
+{
+width: 455px;
+background: url(../img/phone.png) no-repeat left center;
+
+}
+.phone_text
+{
+width: 190px;
+font-size: 14px;
+text-transform: uppercase;
+font-weight:700;
+padding-left: 56px;
+}
+
+.phone_text span
+{
+color: #fea100;
+display: block;
+margin-top: -4px;
+
+}
+.phone_digits
+{
+
+font-size: 32px;
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+color: #14141d;
+margin-left: 42px;
+margin-top: -5px;
+}
+.about
+{
+ padding: 65px 0 100px;
+}
+
+.history
+{
+	margin-top: 60px;
+}
+.history_title
+{
+	font-size: 35px;
+	margin-bottom:25px; 
+}
+
+.history_text
+{
+	font-size: 14px;
+}
+.button_history 
+{
+	width: 148px;
+	margin-top: 48px;
+	text-align: right;
+	
+}
+
+.food-images
+{
+	
+}
+
+.food-images_item
+{
+	margin-bottom: 10px;
+}
+
+.food-images-down
+{
+	margin-top: 50px;
+}
+
+.special
+{
+	background: url('../img/third-bg.jpg') no-repeat center top;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.special_title
+{
+	color: #fff;	
+	font-size: 35px;	
+	text-align: center;
+}
+
+.food
+{
+ text-align: center;
+ box-shadow: 0 10px 90px rgba(0,0,0,1);
+ margin-top: 20px;
+
+}
+
+.food_icon 
+{
+margin-bottom: 45px;
+}
+
+.food_title
+{
+ font-size: 26px;
+ margin-bottom: 10px;
+}
+.food-desk
+{
+ font-size: 14px;
+ padding:0 50px;
+}
+
+
+.food__del
+{
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 78px;
+	border-right: 1px solid #e1e1e1;
+	margin-right: 18px;
+	font-weight: 700;
+}
+
+.food__del span
+{
+	color: #fea3c0;
+}
+.food__phone
+{
+	font-size: 26px;
+	font-family: 'Playfair Display';
+
+}
+
+.food_price
+{
+	font-size: 30px;
+	font-family: 'Playfair Display';
+	color: #fea100;
+}
+.food-details
+{
+	border-top: 1px solid #e1e1e1;
+	text-align: left;
+	 color: #14141d;
+	margin: 0 45px;
+	padding: 18px 0;
+}
+
+.footer
+{
+	background: #373844;
+	font-size: 13px;
+	color: #a7acb1;
+	text-transform: uppercase;
+	padding: 72px 106px;
+}
+
+.social
+{
+
+}
+
+.social_item a
+{
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	text-align: center;
+	display: block;
+}
+
+.item_fb a
+{
+	background: #3b5998 url('../img/fb.png') no-repeat center center;
+}
+
+.item_tw a
+{
+ background: #55acee url('../img/tw.png') no-repeat center center;
+ margin: 0 7px;
+}
+
+.item_g a
+{
+ background: #dd4b39 url('../img/g.png') no-repeat center center;
+}
+.line
+{
+	background: #52355e;
+	height: 1px;
+	
+	margin-top: 50px;
+}
+.credits
+{
+	text-align: center;
+	margin-top: 43px;
+}
+.modal1
+{
+	display: none;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal1_overlay
+{
+	background: rgb(0,0,0,0.8);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal1_body
+{
+	background: #fff;
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	border-radius: 10px;
+	box-shadow: 0 0 50px black;
+}
+
+.show
+{
+	display: block!important;
+}
