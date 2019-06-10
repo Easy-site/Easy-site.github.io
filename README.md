@@ -8,6 +8,6 @@
 
 [Web-agency](https://easy-site.github.io/web-agency/ "Верстка landing page web агенства")
 
-[Testredbull](https://easy-site.github.io/Testredbull рекламное агенство/ "Верстка landing page рекламное агенства")
+[Testredbull рекламное агенство](https://easy-site.github.io/Testredbull рекламное агенство/ "Верстка landing page рекламное агенства")
 
 
