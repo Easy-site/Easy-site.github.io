@@ -1,0 +1,140 @@
+
+
+   /* 768px-992px*/
+   @media screen and (max-width: 992px)
+   {
+     .wrap
+     {
+     	width: 960px;
+     	
+
+     }
+     .product 
+     {
+      width: 25%;
+     }
+     .basket
+     {
+     	width: 60%;
+     }
+}
+     
+
+   /* 576px-768px*/
+  @media screen and (max-width: 768px)
+  {
+  	.wrap
+  	{
+  		width: 700px;
+  	}
+  	.check 
+  	{
+		 width: 40%;
+    }
+
+    .color
+    {
+    	width: 50%
+    }
+    .check 
+    {
+    	width: 50%
+    }
+     .basket
+     {
+     	width: 90%;
+     }
+
+}
+
+
+
+   /* 320px-576px*/
+  @media screen and (max-width: 576px)
+  {
+  	.wrap
+     {
+     	width: 500px;
+     
+     }
+
+  .product 
+     {
+      width: 33%;
+     }
+.filter
+   {
+    flex-direction: column;
+   
+   }  
+
+     .color
+    {
+      width: 90%;
+    }
+    .check 
+    {
+      width: 90%;
+      margin-top:10px;
+      margin-bottom: 10px;
+    }
+    .sorting 
+    {
+      width: 90%;
+    }
+ 
+    .basket
+     {
+     	width: 100%;
+     }
+}
+  
+ /* -320px*/
+  @media screen and (max-width: 320px)
+  {
+    .wrap
+     {
+      width: 300px;
+         
+     }
+
+    .shop
+    {
+       flex-direction: column;
+    }
+
+  .product 
+     {
+      width: 70%;
+     }
+   .filter
+   {
+    flex-direction: column;
+   
+   }  
+
+     .color
+    {
+      width: 90%;
+    }
+    .check 
+    {
+      width: 90%;
+      margin-top:10px;
+      margin-bottom: 10px;
+    }
+    .sorting 
+    {
+      width: 90%;
+    }
+    .checkbox + label 
+    {
+    
+    margin-right: 10px;
+	}
+	.basket
+     {
+     	width: 80%;
+     }
+
+  }
