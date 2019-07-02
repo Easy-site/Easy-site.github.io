@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'uni_sans';
+  font-weight: 'heavy';
+  font-style: 'heavy';
+  src: url(/fonts/uni_sans.eot); /* IE9 Compat Modes */
+  src: url(/fonts/uni_sans.eot#iefix) format('embedded-opentype'), 
+  
+    url(/fonts/uni_sans.svg#uni_sans) format('svg');
+}
