@@ -1,0 +1,85 @@
+body
+{
+    width: 400px;
+    height: 369px;
+    font-family: 'Open Sans';
+}
+h1
+{
+    color: white;
+    font-size: 22px;
+}
+span
+{
+    font-size: 22px;
+    color: #febf00;
+}
+.container
+{
+    background-image: url(../img/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 369px;
+  
+}
+.button
+{
+    display: flex;
+    padding-top: 200px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.text
+{
+    width: 115px;
+    height: 35px;
+    background:#009c82;
+    color: white;
+    text-align: center; 
+    font-weight: 600;
+    padding-top: 10px;
+    margin-right: 5px;
+}
+.arrow
+{
+    width: 34px;
+    height: 35px;
+    background: #febf00;
+    text-align: center;
+    padding-top: 10px;
+}
+.arrow_img
+{
+    position: absolute;
+    left: 145px;
+    top: 220px;
+}
+.content
+{
+    width: 360px;
+    height: 90px;
+    background: #25262c;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-left: 10px;
+    
+}
+.phone
+{
+   width: 100px;
+   position: absolute;
+   top: 88px;
+   left: 2000px; /* 223 */
+}
+.pump
+{
+   width: 55px;
+   position: absolute;
+   top: 8px;
+   left: 2000px; /* 323 */
+}
