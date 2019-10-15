@@ -1,0 +1,324 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Pringle And Tweed';
+  src: url(../fonts/Pringle\ And\ Tweed.ttf); }
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, input, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  max-width: 1920px; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img, abbr {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ul li {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+sup {
+  vertical-align: text-top; }
+
+sub {
+  vertical-align: text-bottom; }
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+legend {
+  color: #000; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px; }
+
+div, p, span, a, input, button {
+  box-sizing: border-box; }
+
+h3, h4, h5 {
+  color: #323232; }
+
+p {
+  line-height: 1.6em; }
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  margin-right: 56px;
+  font-family: 'Ubuntu';
+  font-size: 18px;
+  cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer; }
+
+section {
+  padding: 48px 0 67px; }
+
+nav {
+  display: flex; }
+
+h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-bottom: 70px; }
+
+.menu_item {
+  margin-top: 58px; }
+
+.nav_menu {
+  background: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  margin: auto;
+  padding-bottom: 30px; }
+
+.slider {
+  width: 1920px;
+  height: 760px; }
+
+.beauty {
+  font-size: 100px;
+  font-family: 'Pringle And Tweed';
+  color: white;
+  position: absolute;
+  left: 399.66px;
+  top: 600px; }
+  .beauty__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center; }
+
+.titles {
+  width: 60%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 150px; }
+
+.offer {
+  width: 90%;
+  margin: auto; }
+  .offer__content {
+    width: 60%;
+    text-align: justify;
+    line-height: 42px; }
+  .offer__photo {
+    position: absolute;
+    left: 1064px;
+    top: 950px;
+    width: 30%; }
+
+.services {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-image: url("../img/main/services bg.svg");
+  background-repeat: no-repeat; }
+  .services__title {
+    font-size: 100px;
+    font-family: 'Pringle And Tweed';
+    color: white;
+    text-align: center; }
+  .services__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left; }
+
+.sections {
+  width: 75%;
+  margin: auto;
+  color: #F77780;
+  display: flex; }
+  .sections__name {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    width: 33%; }
+  .sections__icon {
+    border-radius: 100%;
+    background: #F77780;
+    width: 166.5px;
+    height: 166.5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 10px; }
+  .sections__text {
+    color: #1A1A1A;
+    font-size: 20px; }
+    .sections__text li {
+      line-height: 1.7; }
+
+.gallery__bg {
+  background-image: url("../img/main/gallery bg.svg");
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 40px; }
+
+.gallery__photo {
+  padding-bottom: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: auto; }
+  .gallery__photo > img {
+    margin-right: 10px; }
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+.previous, .next {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #F77780;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.rewies__bg {
+  background-image: url("../img/main/people says bg.svg");
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.rewies__content {
+  width: 70%;
+  margin: auto;
+  display: flex; }
+
+.content__photo > img {
+  width: 297px;
+  height: 297px;
+  border-radius: 100%; }
+
+.content__photo {
+  width: 30%; }
+
+.content__text {
+  width: 40%;
+  text-align: justify;
+  margin-top: 40px;
+  margin-left: 90px;
+  letter-spacing: 0.03rem;
+  line-height: 1rem; }
+
+.content__text:after {
+  position: absolute;
+  content: "";
+  background-image: url(../img/main/кавычки.svg);
+  width: 70px;
+  height: 72px;
+  margin-top: -192px;
+  margin-left: -100px; }
+
+.surname {
+  text-align: right;
+  padding-top: 10px; }
+
+#lower menu {
+  display: flex;
+  flex-direction: column; }
+
+.footer {
+  background: #545454;
+  color: white; }
+  .footer .logo {
+    margin-left: 30px;
+    margin-right: 50px; }
+  .footer__content {
+    width: 90%;
+    margin: auto; }
+
+.item-photo {
+  width: 410px;
+  height: 415px; }
+
+.footer__menu {
+  display: flex;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: justify;
+  color: #FFFFFF;
+  font-size: 21px;
+  padding-top: 40px; }
+
+.biggest {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500; }
+
+.links > ul {
+  display: flex;
+  margin-top: 20px; }
+
+#top_link_gal {
+  margin-left: 200px; }
+
+#top_link_gal:before {
+  position: absolute;
+  top: 0px;
+  margin-left: -210px;
+  content: "";
+  background-image: url(../img/main/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 190px;
+  height: 151px; }
+
+/*# sourceMappingURL=main.css.map */
